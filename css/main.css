@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-end;;
+
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  float: right;
+  font-family: sans-serif;
+  color: rgb(101, 101, 101);
+  font-size: 0.8em;
+}
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+nav #userMenu img {
+  width: 30px;
+  border-radius: 15px;
+}
+.current {
+  color: rgb(200, 200, 200);
+}
+article {
+  width: 600px;
+  margin: 0 auto;
+  clear: both;
+}
+section {
+  margin: 0 auto;
+  width: 600px;
+}
+#logo img {
+  width: 350px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+}
+#search input {
+  width: 600px;
+  margin: 20px auto;
+}
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+#buttons button {
+  padding: 8px;
+  margin: 10px 4px;
+  background-color: rgb(240, 240, 240);
+  font-weight: bold;
+  color: rgb(120, 120, 120);
+  border: 1px solid white;
+  padding: 12px;
+}
+#buttons button:hover {
+  border: 1px solid rgb(180, 180, 180);
+  box-shadow: 0 1px 1px gray;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon.app {
+  background-image: url(../img/apps.png);
+  background-repeat: no-repeat;
+}
+.icon.notification {
+  background-color: rgb(70, 70, 70);
+  border-radius: 10px;
+  background-image: url(../img/bell-small.png);
+  background-repeat: no-repeat;
+}
+form input {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+footer {
+  background-color: rgb(232, 232, 232);
+  /*display: flex;*/
+  /*flex: 1;*/
+  margin-top: auto;
+  font-family: sans-serif;
+  color: rgb(101, 101, 101);
+  font-size: 0.8em;
+}
+footer ul {
+  display: flex;
+  align-self: center;
+  margin: auto 0;
+}
+footer ul li {
+  margin: 20px;
+}
+footer ul:first-child {
+  float: left;
+}
+footer ul:last-child {
+  float: right;
+}
